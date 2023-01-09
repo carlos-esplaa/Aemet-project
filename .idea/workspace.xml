@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b355ae31-6805-4d1c-a632-701625d44052" name="Changes" comment="first version">
-      <change afterPath="$PROJECT_DIR$/src/main/java/AemetWeatherSensor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Weather.java" afterDir="false" />
+    <list default="true" id="b355ae31-6805-4d1c-a632-701625d44052" name="Changes" comment="second version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ApiKey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AemetWeatherSensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AemetWeatherSensor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Weather.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Weather.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,19 +41,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="" />
@@ -68,7 +66,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673261899999</updated>
-      <workItem from="1673261901364" duration="5948000" />
+      <workItem from="1673261901364" duration="6236000" />
+      <workItem from="1673271980355" duration="283000" />
+      <workItem from="1673283998859" duration="1145000" />
     </task>
     <task id="LOCAL-00001" summary="first version">
       <created>1673264378953</created>
@@ -77,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673264378953</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="second version">
+      <created>1673271274346</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673271274346</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,6 +92,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first version" />
-    <option name="LAST_COMMIT_MESSAGE" value="first version" />
+    <MESSAGE value="second version" />
+    <option name="LAST_COMMIT_MESSAGE" value="second version" />
   </component>
 </project>
