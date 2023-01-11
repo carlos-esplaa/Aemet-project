@@ -1,11 +1,11 @@
-public class Event {
+public class Event extends WeatherEvents {
     private String Moment;
     private String Station;
     private String Location;
     private Double Degree;
 
 
-    public Event(String Moment, String Station, String Location, Double Degree){
+    public Event(String Moment, String Station, String Location, String degree){
         this.Moment = Moment;
         this.Station= Station;
         this.Location = Location;
