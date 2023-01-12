@@ -1,4 +1,10 @@
-public class Event extends WeatherEvents {
+package model;
+
+import view.WeatherExtractor;
+
+public class Event extends WeatherExtractor {
+    private Double Longitud;
+    private Double Latitud;
     private String Moment;
     private String Station;
     private String Location;
@@ -10,12 +16,11 @@ public class Event extends WeatherEvents {
         this.Station= Station;
         this.Location = Location;
         this.Degree = Degree;
+        this.Longitud = Longitud;
+        this.Latitud = Latitud;
 
     }
-
     public Event(){}
-
-
 
     public String getMoment() {
         return Moment;
@@ -49,13 +54,20 @@ public class Event extends WeatherEvents {
         Degree = degree;
     }
 
-    @Override
-    public String toString() {
-        return "Event{" +
-                "Moment='" + Moment + '\'' +
-                ", Station='" + Station + '\'' +
-                ", Location='" + Location + '\'' +
-                ", Degree=" + Degree +
-                '}';
+    public Double getLongitud() {
+        return Longitud;
     }
+
+    public void setLongitud(Double longitud) {
+        Longitud = longitud;
+    }
+
+    public Double getLatitud() {
+        return Latitud;
+    }
+
+    public void setLatitud(Double latitud) {
+        Latitud = latitud;
+    }
+
 }
