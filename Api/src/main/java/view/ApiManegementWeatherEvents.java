@@ -1,7 +1,6 @@
-import spark.*;
-
+package view;
+import controller.*;
 import static spark.Spark.get;
-
 public class ApiManegementWeatherEvents {
     public void start(){
         get("/v1/places/with-min-temperature", (req, res) -> {

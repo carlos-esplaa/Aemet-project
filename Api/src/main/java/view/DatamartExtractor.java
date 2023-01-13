@@ -1,9 +1,9 @@
+package view;
+import model.*;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
-import static java.sql.DriverManager.getConnection;
 public class DatamartExtractor {
-
     public java.sql.Connection connect() {
         Connection conn = null;
         String url = "jdbc:sqlite:Datamartdir/datamart.db";

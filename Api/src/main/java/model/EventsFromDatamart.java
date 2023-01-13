@@ -1,3 +1,5 @@
+package model;
+
 public class EventsFromDatamart {
     private String Moment;
     private String Station;

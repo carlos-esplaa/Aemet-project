@@ -1,5 +1,7 @@
+package controller;
+import model.*;
+import view.*;
 import java.util.List;
-
 public class Controller {
     public String getMinWeather(String from, String to){
         DatamartExtractor datamartExtractor = new DatamartExtractor();
@@ -18,5 +20,4 @@ public class Controller {
         String weathersFilter = operations.operation(maxWeathersList, from, to);
         return weathersFilter;
     }
-
 }
