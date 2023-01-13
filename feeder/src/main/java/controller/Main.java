@@ -21,10 +21,8 @@ public class Main {
                     } catch (AemetWeatherException e) {
                         throw new RuntimeException(e);
                     }
-
                 }
             };
             timer.schedule(task, 0, 60*60*1000);
         }
-
 }

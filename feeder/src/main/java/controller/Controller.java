@@ -5,8 +5,6 @@ import model.AemetWeatherException;
 import view.GcWeatherEventsFile;
 import view.WeatherExtractor;
 import model.*;
-import view.*;
-
 import java.util.List;
 
 public class Controller {
