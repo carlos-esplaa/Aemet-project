@@ -1,26 +1,15 @@
-package model;
-
-import view.WeatherExtractor;
-
-public class Event extends WeatherExtractor {
-    private Double Longitud;
-    private Double Latitud;
+public class EventsFromFile {
     private String Moment;
     private String Station;
     private String Location;
     private Double Degree;
 
-
-    public Event(String Moment, String Station, String Location, Double degree, Double Longitud, Double Latitud){
+    public EventsFromFile(String Moment, String Station, String Location, Double Degree){
         this.Moment = Moment;
-        this.Station= Station;
         this.Location = Location;
+        this.Station = Moment;
         this.Degree = Degree;
-        this.Longitud = Longitud;
-        this.Latitud = Latitud;
-
     }
-    public Event(){}
 
     public String getMoment() {
         return Moment;
@@ -46,28 +35,23 @@ public class Event extends WeatherExtractor {
         Location = location;
     }
 
-    public double getDegree() {
+    public Double getDegree() {
         return Degree;
     }
 
     public void setDegree(Double degree) {
         Degree = degree;
     }
+    public EventsFromFile(){}
 
-    public Double getLongitud() {
-        return Longitud;
+    @Override
+    public String toString() {
+        return "Event{" +
+                "Moment='" + Moment + '\'' +
+                ", Station='" + Station + '\'' +
+                ", Location='" + Location + '\'' +
+                ", Degree=" + Degree +
+                '}';
     }
-
-    public void setLongitud(Double longitud) {
-        Longitud = longitud;
-    }
-
-    public Double getLatitud() {
-        return Latitud;
-    }
-
-    public void setLatitud(Double latitud) {
-        Latitud = latitud;
-    }
-
 }
+
